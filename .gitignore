@@ -1,0 +1,41 @@
+# Build directories
+build/
+build-arm/
+cmake-build-*/
+
+# CMake
+CMakeCache.txt
+CMakeFiles/
+cmake_install.cmake
+compile_commands.json
+CTestTestfile.cmake
+_deps/
+
+# Coverage
+*.gcda
+*.gcno
+*.gcov
+coverage.info
+coverage-html/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+
+# Compiled binaries
+sensor_sim
+sensor_tests
+*.o
+*.a
+*.so
+*.elf
+
+# Python
+__pycache__/
+*.pyc
+.pytest_cache/
+venv/
